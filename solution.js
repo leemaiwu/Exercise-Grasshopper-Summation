@@ -1,4 +1,4 @@
-var summation = function (num) {
+const summation = function (num) {
     let numArr = []
     let startingNum = 1
     let total = 0
@@ -13,3 +13,11 @@ var summation = function (num) {
 }
 
 console.log(summation(8))
+
+
+// Alternate Solution
+
+const summating = (num) => num * (num + 1) / 2
+
+console.log(summating(8))
+
